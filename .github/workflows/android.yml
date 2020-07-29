@@ -24,5 +24,7 @@ jobs:
         #export ANDROID_SDK_ROOT=/usr/local/android-sdk 
         export PATH=`pwd`/android-ndk-r20:$PATH       
         
+        export APP_PLATFORM=android-24
+        
         ndk-build
         
