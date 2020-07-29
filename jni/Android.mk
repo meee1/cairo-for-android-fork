@@ -1,5 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
+APP_PLATFORM := android-24
+
 include jni/pixman.mk
 include jni/cairo.mk
 include $(CLEAR_VARS)
